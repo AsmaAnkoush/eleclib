@@ -20,7 +20,6 @@ export default function Hero() {
 
                 {/* اسم المكتبة مع اللوجو */}
                 <h1 className="text-3xl md:text-4.5xl font-extrabold flex justify-center items-center gap-2 text-sky-400">
-                    <img src="/logo.png" alt="logo" className="w-8 h-8" />
                     ElecLib - مكتبة الهندسة الكهربائية
                 </h1>
 
@@ -48,6 +47,45 @@ export default function Hero() {
                         Cources
                     </Link>
                 </div>
+                {/* مجموعات الخير */}
+                <div className="relative z-10 mt-20">
+                    <h2 className="text-xl font-bold text-white mb-6 text-center border-b border-white/10 pb-2 w-fit mx-auto">
+                        مجموعات الخير
+                    </h2>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 px-4 sm:px-0">
+                        {/* أصدقاء ذوي الاحتياجات الخاصة */}
+                        <a
+                            href="https://chat.whatsapp.com/K8r8ewZQkuR2DzKEYFvsoU?mode=r_t"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-blue-900/60 hover:bg-blue-900/80 text-white text-center rounded-lg py-4 px-3 shadow-sm border border-blue-200/10 transition hover:shadow-md text-sm"
+                        >
+                            أصدقاء ذوي الاحتياجات الخاصة
+                        </a>
+
+                        {/* مجموعة لحن */}
+                        <a
+                            href="https://www.facebook.com/profile.php?id=100070275111033"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-sky-800/60 hover:bg-sky-800/80 text-white text-center rounded-lg py-4 px-3 shadow-sm border border-sky-200/10 transition hover:shadow-md text-sm"
+                        >
+                            مجموعة لحن
+                        </a>
+
+                        {/* من هم للخير ساعون */}
+                        <a
+                            href="https://www.facebook.com/groups/2352165261734115/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-indigo-900/60 hover:bg-indigo-900/80 text-white text-center rounded-lg py-4 px-3 shadow-sm border border-indigo-200/10 transition hover:shadow-md text-sm"
+                        >
+                            من هم للخير ساعون
+                        </a>
+                    </div>
+                </div>
+
 
                 {/* فوتر */}
                 <p className="text-xs text-gray-500 mt-6">© 2025 - ElecLib</p>
