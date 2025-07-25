@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero';
 import MaterialsPage from './pages/SubjectList';
+import LabsPage from './pages/LabList';
 
 function App() {
     return (
@@ -11,6 +12,8 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Hero />} />
                         <Route path="/subjects" element={<MaterialsPage />} />
+                        <Route path="/labs" element={<LabsPage />} />
+
                     </Routes>
                 </main>
             </BrowserRouter>
